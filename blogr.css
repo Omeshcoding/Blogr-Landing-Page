@@ -218,13 +218,8 @@ border-radius:10px;
   width:80%;
   color:rgb(0, 0, 0,.8);
 }
-
-/* product-section */
-.product{
-  margin:100px auto; 
-  text-align: center;
-  width:80%;
-  color:rgb(0, 0, 0,.8);
+.img-section{
+  width:100%;
 }
 
 /* Infrastructure -Section*/
@@ -267,7 +262,7 @@ border-radius:10px;
 }
 .infra-content h3{
   font-size:2rem;
-   color:#fff;
+  color:#fff;
 }
 .infra-content p{
   font-size:1rem;
@@ -275,7 +270,16 @@ border-radius:10px;
   line-height: 1.5;
   color:var(--Grayish-blue);
 }
-
+/* product-section */
+.product{
+  margin:100px auto; 
+  text-align: center;
+  width:80%;
+  color:rgb(0, 0, 0,.8);
+}
+.laptop-img{
+  width:100%;
+}
 /* Footer -section */
 .footer{
   /* display: flex; */
