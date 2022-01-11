@@ -1,0 +1,42 @@
+
+.infra-img{
+  position:relative;
+  width:60%;
+  /* overflow: hidden; */
+}
+#phones-img {
+  position:absolute;
+  left:100px; /* play around with this */
+  top: -50px;/* and play around with this */
+  width:90%;
+  z-index: 1;
+}
+#circle-img {
+  position:absolute; /* and this has to be relative */
+  bottom:280px;
+  right:10px;
+  width:100%;
+} 
+.infra-text{
+  padding:50px;
+  position:relative;
+  margin:0 auto;
+  overflow: hidden;
+
+}
+
+.infra-content{
+  padding:20px;
+  margin-top: 200px;
+  text-align:center;
+}
+.infra-content h3{
+  font-size:2rem;
+   color:#fff;
+}
+.infra-content p{
+  font-size:1rem;
+  letter-spacing:1.5;
+  line-height: 1.5;
+  color:var(--Grayish-blue);
+}
