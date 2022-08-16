@@ -1,14 +1,16 @@
-body{
+body {
 
     background-color: rgb(255, 143, 112);
 }
-div{
+
+div {
     display: flex;
     margin: 20% 0;
     justify-content: center;
     /* align-items: center; */
 }
-.form{
+
+.form {
     background-color: rgb(37, 37, 45, .6);
     display: flex;
     flex-direction: column;
@@ -19,39 +21,45 @@ div{
     /* height: 60%; */
     border-radius: 1rem;
 }
-label{
-    margin:.5rem 0;
-    color:#fff;
+
+label {
+    margin: .5rem 0;
+    color: #fff;
     /* text-align: left; */
 }
-input{
+
+input {
     /* margin:.2rem 0; */
     /* text-align: left; */
     border: none;
-    border-radius:2px;
+    border-radius: 2px;
     color: #000;
-    
-    outline:none;
-    padding:.2rem;
-    margin-bottom:.5rem;
+
+    outline: none;
+    padding: .2rem;
+    margin-bottom: .5rem;
 }
+
 input:hover {
     background: #ff3d54;
-    outline:none;
-    
-}
-input::placeholder{
-    color:#fff;
+    outline: none;
 
 }
-#login-btn{
-   margin:10px;
-   background-color: #fff;
-   color:#ff3d54;
-   font-weight: 500;
-   /* padding:; */
+
+input::placeholder {
+    color: #fff;
+
 }
+
+#login-btn {
+    margin: 10px;
+    background-color: #fff;
+    color: #ff3d54;
+    font-weight: 500;
+    /* padding:; */
+}
+
 #login-btn:hover {
-    background-color:#ff3d54;
-    color:#fff;
+    background-color: #ff3d54;
+    color: #fff;
 }
