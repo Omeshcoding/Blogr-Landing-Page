@@ -106,6 +106,7 @@ a.active {
   margin: 0.7rem;
   cursor: pointer;
   transition: 0.3 ease-in-out;
+  text-align: center;
 }
 
 .dropdown-content {
@@ -370,7 +371,6 @@ a.active {
   .topnav.responsive .dropdown .dropbtn {
     display: block;
     /* width: 100%; */
-    text-align: left;
   }
   .topnav .login-container .btn {
     margin-bottom: 10px;
@@ -378,6 +378,7 @@ a.active {
   .topnav .login-container .btn:hover {
     background-color: #fff;
     color: var(--Very-light-red);
+    width: 70px;
   }
   .infra-content h3 {
     font-size: 2rem;
