@@ -1,65 +1,89 @@
 body {
-
-    background-color: rgb(255, 143, 112);
+  background: url(../images/japan.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial;
 }
 
 div {
-    display: flex;
-    margin: 20% 0;
-    justify-content: center;
-    /* align-items: center; */
+  display: flex;
+  margin: 20% 0;
+  justify-content: center;
+  /* align-items: center; */
 }
-
+a {
+  text-decoration: none;
+  margin-bottom: 3rem;
+}
 .form {
-    background-color: rgb(37, 37, 45, .6);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    /* margin: auto 20px; */
-    padding: 2rem;
-    width: 35%;
-    /* height: 60%; */
-    border-radius: 1rem;
+  background-color: rgb(240, 238, 238, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 2rem;
+  width: 45%;
+  /* height: 60%; */
+  border-radius: 1rem;
 }
-
+h2 {
+  color: #ff3d54;
+  text-align: center;
+  margin: 0;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: #fff;
+}
 label {
-    margin: .5rem 0;
-    color: #fff;
-    /* text-align: left; */
+  margin: 0.5rem 0;
+  color: #000;
+  font-weight: 700;
 }
 
 input {
-    /* margin:.2rem 0; */
-    /* text-align: left; */
-    border: none;
-    border-radius: 2px;
-    color: #000;
+  border: none;
+  border-radius: 5px;
+  color: #333;
 
-    outline: none;
-    padding: .2rem;
-    margin-bottom: .5rem;
+  outline: none;
+  padding: 0.4rem 0.3rem;
+  margin-bottom: 0.5rem;
 }
 
 input:hover {
-    background: #ff3d54;
-    outline: none;
-
+  /* background: #333; */
+  outline: none;
 }
 
 input::placeholder {
-    color: #fff;
-
+  color: #fff;
 }
 
-#login-btn {
-    margin: 10px;
-    background-color: #fff;
-    color: #ff3d54;
-    font-weight: 500;
-    /* padding:; */
+.flex {
+  display: flex;
+  text-align: center;
+  gap: 2rem;
+}
+.btn {
+  margin: 10px;
+  float: right;
+  background-color: #fff;
+  color: #ff3d54;
+  font-weight: 500;
+  width: auto;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
 }
 
-#login-btn:hover {
-    background-color: #ff3d54;
-    color: #fff;
+.btn:hover {
+  background-color: #ff3d54;
+  color: #fff;
+}
+p {
+  color: #fff;
 }

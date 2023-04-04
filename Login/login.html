@@ -1,26 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
-    <link rel="stylesheet" href="login.css">
-    <link rel="stylesheet" href="blogr.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="../signup/signup.css" />
+    <link rel="stylesheet" href="blogr.css" />
+  </head>
+  <body>
     <div>
+      <form class="form">
+        <a href="../index.html">
+          <h2>Blogr</h2>
+        </a>
 
-        <form class="form">
-            <label for="name">Name:</label>
-        <input name='name' placeholder='name' />
+        <label for="email">Emial:</label>
+        <input name="email" placeholder="email@email.com" />
+
         <label for="password">Password:</label>
-        <input name='password' placeholder='password' />
-        <label for="password">Password:</label>
-        <button id="login-btn" class="title-btn " >Submit</button>
-        
-    </form>
-</div>
-</body>
+        <input name="password" placeholder="password" />
+        <div class="flex">
+          <button id="signup-btn" class="btn" type="submit" class="title-btn">
+            Log In
+          </button>
+          <p class="or">OR</p>
+          <a
+            id="signup-btn"
+            href="../signup/signup.html"
+            class="btn"
+            type="button"
+            class="title-btn"
+          >
+            Sign Up
+          </a>
+        </div>
+      </form>
+    </div>
+  </body>
 </html>

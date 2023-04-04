@@ -1,34 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
-    <link rel="stylesheet" href="signup.css">
-    <link rel="stylesheet" href="blogr.css">
-</head>
+    <link rel="stylesheet" href="signup.css" />
+    <link rel="stylesheet" href="blogr.css" />
+  </head>
 
-<body>
-
+  <body>
     <div>
-
-        <form class="form">
-            <label for="name">Name:</label>
-            <input name='name' placeholder='name' />
-            <label for="email">Emial:</label>
-            <input name='email' placeholder='email@email.com' />
-            <label>Phone no:</label>
-            <input name='Phone no.' placeholder='0000-0000-00' />
-            <label for="password">Password:</label>
-            <input name='password' placeholder='password' />
-            <label for="password">Password:</label>
-            <input name='email' placeholder='name' />
-            <button id="login-btn" class="title-btn ">Submit</button>
-
-        </form>
+      <form class="form">
+        <a href="../index.html">
+          <h2>Blogr</h2>
+        </a>
+        <label for="name">Name:</label>
+        <input name="name" placeholder="name" />
+        <label for="email">Emial:</label>
+        <input name="email" placeholder="email@email.com" />
+        <label>Phone no:</label>
+        <input name="Phone no." placeholder="0000-0000-00" />
+        <label for="password">Password:</label>
+        <input name="password" placeholder="password" />
+        <label for="password">Confirm Password:</label>
+        <input name="email" placeholder="name" />
+        <div class="flex">
+          <button id="signup-btn" class="btn" type="submit" class="title-btn">
+            Sign Up
+          </button>
+          <p>OR</p>
+          <a
+            id="signup-btn"
+            href="../Login/login.html"
+            class="btn"
+            type="button"
+            class="title-btn"
+          >
+            Log In
+          </a>
+        </div>
+      </form>
     </div>
-</body>
-
+  </body>
 </html>
